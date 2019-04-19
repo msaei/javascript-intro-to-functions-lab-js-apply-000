@@ -17,4 +17,7 @@ function sayHiToGrandma(str){
   if (str.toLowerCase()=== str){
     return "I can't hear you!"
   }
+  if (str.toUpperCase() === str){
+    return "YES INDEED!"
+  }
 }
